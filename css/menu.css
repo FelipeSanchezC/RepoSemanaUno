@@ -1,0 +1,42 @@
+nav{
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: #000000 solid;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+
+}
+
+.logo{
+    flex-grow: 4;
+}
+
+.logo img{
+    width: 5%;
+    height: 5%;
+    padding: 1% 2% 1% 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.menu a:hover:not(.logo a){
+    background-color: #000000;
+    color: #ffffff;
+    border: 5px #000000 solid;
+    border-radius: 5px;
+}
